@@ -1,0 +1,11 @@
+buat sebuah project 
+.env = php artisan key:generate
+buat database 
+konfig database
+kinfig app/providers/AppServiceProvider.php
+-"use Illuminate\Support\facades\Schema;"
+-"Schema::DefaultStringLength(191);"
+bikin migration = php artisan make:model -m
+isi model
+bikin controller = php artisan make:controller -r
+isi controller
